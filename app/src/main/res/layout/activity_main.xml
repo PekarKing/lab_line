@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="32dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_main_x1"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:hint="x1"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_main_y1"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="y1"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_main_x2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:hint="x2"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_main_y2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="y2"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_main_solve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Рассчитать"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_main_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="y = ax + b"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+</LinearLayout>
